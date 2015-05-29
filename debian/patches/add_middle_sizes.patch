@@ -1,0 +1,190 @@
+Subject: Add two middle sizes of icons.
+Author: Matias De lellis <mati86dl@gmail.com>
+Original author: Lisandro Damián Nicanor Pérez Meyer <perezmeyer@gmail.com>
+Forwarded: not-needed
+
+--- a/theme-black/CMakeLists.txt
++++ b/theme-black/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-blue/CMakeLists.txt
++++ b/theme-blue/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-bluecurve/CMakeLists.txt
++++ b/theme-bluecurve/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-brown/CMakeLists.txt
++++ b/theme-brown/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-cherry/CMakeLists.txt
++++ b/theme-cherry/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-chrome/CMakeLists.txt
++++ b/theme-chrome/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-desert/CMakeLists.txt
++++ b/theme-desert/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-emerald/CMakeLists.txt
++++ b/theme-emerald/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-green/CMakeLists.txt
++++ b/theme-green/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-grey/CMakeLists.txt
++++ b/theme-grey/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-honeycomb/CMakeLists.txt
++++ b/theme-honeycomb/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-hot_orange/CMakeLists.txt
++++ b/theme-hot_orange/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-lilac/CMakeLists.txt
++++ b/theme-lilac/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-midnight_meadow/CMakeLists.txt
++++ b/theme-midnight_meadow/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-navy/CMakeLists.txt
++++ b/theme-navy/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-norway/CMakeLists.txt
++++ b/theme-norway/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-obsidian-hc/CMakeLists.txt
++++ b/theme-obsidian-hc/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-obsidian/CMakeLists.txt
++++ b/theme-obsidian/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-olympus-inv/CMakeLists.txt
++++ b/theme-olympus-inv/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-olympus/CMakeLists.txt
++++ b/theme-olympus/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-orchid/CMakeLists.txt
++++ b/theme-orchid/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-oxygen/CMakeLists.txt
++++ b/theme-oxygen/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-peach/CMakeLists.txt
++++ b/theme-peach/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-purple/CMakeLists.txt
++++ b/theme-purple/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-red-argentina/CMakeLists.txt
++++ b/theme-red-argentina/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-red/CMakeLists.txt
++++ b/theme-red/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-sea_blue/CMakeLists.txt
++++ b/theme-sea_blue/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-steel/CMakeLists.txt
++++ b/theme-steel/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-terra/CMakeLists.txt
++++ b/theme-terra/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-terra_green/CMakeLists.txt
++++ b/theme-terra_green/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-violet/CMakeLists.txt
++++ b/theme-violet/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-viorange/CMakeLists.txt
++++ b/theme-viorange/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-white/CMakeLists.txt
++++ b/theme-white/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-whitewater/CMakeLists.txt
++++ b/theme-whitewater/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-wonton/CMakeLists.txt
++++ b/theme-wonton/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-yellow/CMakeLists.txt
++++ b/theme-yellow/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)
+--- a/theme-zion/CMakeLists.txt
++++ b/theme-zion/CMakeLists.txt
+@@ -1 +1 @@
+-add_theme(${color} ${color} 90 180 270)
++add_theme(${color} ${color} 90 135 180 225 270)

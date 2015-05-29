@@ -1,0 +1,17 @@
+Source: oxygencursors
+Section: x11
+Priority: optional
+Maintainer: Matias De lellis <mati86dl@gmail.com>
+Uploaders: Matias De lellis <mati86dl@gmail.com>
+Build-Depends: debhelper (>= 5.0.0),inkscape,x11-apps,quilt, cmake
+Standards-Version: 3.9.3
+
+Package: oxygencursors
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Oxygen mouse cursor theme
+ This package contains the Oxygen cursor theme, 
+ originally created for KDE 4. 
+ . 
+ The cursors are available in numerous colors to 
+ match the style of any desktop.

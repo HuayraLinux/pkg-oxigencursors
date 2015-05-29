@@ -1,0 +1,58 @@
+oxygencursors (0.0.2012-06-kde4.8-3) torbellino; urgency=medium
+
+  * Add middle size of icons and remove patch that disable big icons.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Fri, 29 May 2015 12:11:21 -0300
+
+oxygencursors (0.0.2012-06-kde4.8-2.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * debian/rules: Use xz compression for binary packages. (Closes: #683910)
+
+ -- Ansgar Burchardt <ansgar@debian.org>  Sun, 05 Aug 2012 12:24:25 +0200
+
+oxygencursors (0.0.2012-06-kde4.8-2) unstable; urgency=low
+
+  * Add myself to Uploaders.
+  * Fix UNRELEASED tag in last upload.
+  * Add do_not_build_big_icons.patch to avoid building 270dpi cursors,
+    thus reducing installation size.
+  * Update Standars-version to 3.9.3. No changes needed.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Wed, 27 Jun 2012 20:27:40 -0300
+
+oxygencursors (0.0.2012-06-kde4.8-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Sune Vuorela <sune@debian.org>  Thu, 21 Jun 2012 00:11:11 +0200
+
+oxygencursors (0.0.2010-05-10-kde4.4.3-1) unstable; urgency=low
+
+  * New upstream release based on kde 4.4.3 cursors.
+    - Adds drag and drop cursor. Closes: #493038
+  * Move to debian email
+
+ -- Sune Vuorela <sune@debian.org>  Tue, 18 May 2010 16:23:19 +0200
+
+oxygencursors (0.0.2008-07-07-svn824849-1) unstable; urgency=low
+
+  * New upstream snapshot - as released with kde4 rc1.
+    - All patches dropped. Merged upstream
+    - More colors
+
+ -- Sune Vuorela <debian@pusling.com>  Thu, 10 Jul 2008 07:51:45 +0200
+
+oxygencursors (0.0.2008-01-27-a7b68163e7c8ccc1376-2) unstable; urgency=low
+
+  * Fix a couple of more icon names.
+
+ -- Sune Vuorela <debian@pusling.com>  Tue, 29 Jan 2008 08:47:21 +0100
+
+oxygencursors (0.0.2008-01-27-a7b68163e7c8ccc1376-1) unstable; urgency=low
+
+  * Initial release. Git snapshot.
+  * Add some extra names for the same cursors. Also forwarded upstream 
+    to Ruphy.
+
+ -- Sune Vuorela <debian@pusling.com>  Sun, 27 Jan 2008 14:00:11 +0100

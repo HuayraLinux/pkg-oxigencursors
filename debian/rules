@@ -1,0 +1,71 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+ICONDIR=usr/share/icons
+WRAPPERDIR=etc/X11/cursors
+
+include /usr/share/quilt/quilt.make
+
+builddir: $(QUILT_STAMPFN)
+	mkdir -p $@
+
+builddir/Makefile: builddir
+	cd builddir && cmake .. -DCMAKE_INSTALL_PREFIX=/usr
+
+build-compile-cursors-stamp: builddir/Makefile
+	cd builddir && make
+	touch $@
+
+$(subst theme,cursors/oxy,$(wildcard theme-*)): build-compile-cursors-stamp
+	mkdir -p $@
+	cp -a builddir/$(subst cursors/,,$@)/cursors $@
+	cp $(subst cursors/oxy,theme,$@)/index.theme $@
+	
+
+build-stamp:  $(subst theme,cursors/oxy,$(wildcard theme-*))
+	touch $@
+
+build: build-stamp
+
+clean: unpatch
+	dh_testdir
+	dh_testroot
+	# Add here commands to clean up after the build process.
+	dh_clean
+	rm -rf cursors
+	rm -rf builddir
+	rm -f build-stamp build-compile-cursors-stamp
+
+install:
+	dh_testdir
+	dh_testroot
+	dh_clean -k 
+	dh_installdirs
+
+	# Add here commands to install the package into debian/comixcursors.
+	cp -a cursors/oxy-* $(CURDIR)/debian/oxygencursors/$(ICONDIR)
+
+	chmod +x debian/wrapperthemes.sh
+
+	debian/wrapperthemes.sh
+
+
+binary-arch: install
+# We have nothing to do here
+
+binary-indep: install
+	dh_testdir
+	dh_testroot
+	dh_installdocs
+	dh_installchangelogs 
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb -- -Zxz
+
+binary: binary-indep binary-arch
+.PHONY: clean binary-indep binary-arch binary install 
